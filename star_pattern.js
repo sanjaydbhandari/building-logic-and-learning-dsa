@@ -111,6 +111,20 @@ function pattern7(){
   }
 }
 
+function pattern8(){
+  let n =5;
+  for(let i=0;i<n;i++){
+    for(let j=n;j>i;j--){
+      process.stdout.write(" ")
+    }
+    for(let k=0;k<n;k++){
+      process.stdout.write("*")
+    }
+    console.log()
+  }
+}
+
+
 // pattern1();
 // pattern2();
 // pattern2_2();
@@ -121,4 +135,6 @@ function pattern7(){
 // pattern5();
 // pattern5_2();
 // pattern6();
-pattern7();
+// pattern7();
+// pattern8();
+pattern9();
